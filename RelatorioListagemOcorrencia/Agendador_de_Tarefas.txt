@@ -1,0 +1,10 @@
+Configuração do Agendador de Tarefas
+
+Script
+%windir%\System32\WindowsPowerShell\v1.0\powershell.exe
+
+Argumentos
+-ExecutionPolicy ByPass -NoExit -Command " ; python -u .\Relatorio_listagem_ocorrencia.py ; exit
+
+Iniciar em
+%HOMEPATH%\Sistemas\RelatorioListagemOcorrencia
